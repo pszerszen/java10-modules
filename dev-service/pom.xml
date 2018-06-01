@@ -6,7 +6,7 @@
 
     <parent>
         <groupId>com.osa</groupId>
-        <artifactId>java9-test</artifactId>
+        <artifactId>java10-modules</artifactId>
         <version>1.0-SNAPSHOT</version>
     </parent>
 
