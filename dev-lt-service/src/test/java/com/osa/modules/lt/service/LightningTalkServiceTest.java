@@ -15,6 +15,6 @@ class LightningTalkServiceTest {
 
     @Test
     void testPrefix() {
-        assertEquals(LightningTalkService.prefix("blah blah"), "Talk: blah blah");
+        assertEquals(LightningTalkService.prefix("blah blah"), "Lightning Talk: blah blah");
     }
 }
