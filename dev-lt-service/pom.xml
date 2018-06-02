@@ -6,7 +6,7 @@
     <parent>
         <groupId>com.osa</groupId>
         <artifactId>java10-modules</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0</version>
     </parent>
 
     <artifactId>dev-lt-service</artifactId>
@@ -15,7 +15,7 @@
         <dependency>
             <groupId>com.osa</groupId>
             <artifactId>dev-service</artifactId>
-            <version>1.0-SNAPSHOT</version>
+            <version>1.0</version>
             <scope>compile</scope>
         </dependency>
         <dependency>

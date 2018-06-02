@@ -21,7 +21,7 @@ public class Devday {
     }
 
     private void printEvents() {
-        System.out.println();
+        System.out.println("===================");
         System.out.println("PGS Events Schedule");
         System.out.println("===================");
 
