@@ -6,9 +6,12 @@ import com.osa.modules.service.EventService;
 import java.util.Collection;
 import java.util.List;
 import java.util.ServiceLoader;
+import java.util.logging.Logger;
 import java.util.stream.Collectors;
 
 public class Devday {
+
+    private static final Logger log = Logger.getLogger(Devday.class.getName());
 
     private List<EventService> eventServices;
     private MarkdownService markdownService;
@@ -21,16 +24,16 @@ public class Devday {
     }
 
     private void printEvents() {
-        System.out.println("===================");
-        System.out.println("PGS Events Schedule");
-        System.out.println("===================");
+        log.info("===================");
+        log.info("PGS Events Schedule");
+        log.info("===================");
 
         List<String> events = eventServices.stream()
                 .map(EventService::getEvents)
                 .flatMap(Collection::stream)
                 .collect(Collectors.toList());
 
-        System.out.println(markdownService.formatList(events));
+        log.info(markdownService.formatList(events));
     }
 
     public static void main(String[] args) {
