@@ -36,11 +36,13 @@
             <groupId>com.osa</groupId>
             <artifactId>dev-lt-service</artifactId>
             <version>1.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>com.osa</groupId>
             <artifactId>dev-workshop-service</artifactId>
             <version>1.0</version>
+            <scope>provided</scope>
         </dependency>
         <dependency>
             <groupId>org.ow2.asm</groupId>

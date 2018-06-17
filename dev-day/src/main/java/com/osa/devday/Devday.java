@@ -11,7 +11,7 @@ import java.util.stream.Collectors;
 
 public class Devday {
 
-    private static final Logger log = Logger.getLogger(Devday.class.getName());
+    private final Logger log = Logger.getLogger(Devday.class.getName());
 
     private List<EventService> eventServices;
     private MarkdownService markdownService;
