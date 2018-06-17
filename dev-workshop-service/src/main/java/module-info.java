@@ -1,5 +1,5 @@
-module com.osa.modules.workshop.service {
-    requires com.osa.modules.service;
+module dev.workshop.service {
+    requires dev.service;
 
     exports com.osa.modules.workshop.service;
 

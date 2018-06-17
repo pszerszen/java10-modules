@@ -16337,6 +16337,7 @@
 
                 listenBodyChange();
 
+                // noinspection JSAnnotator
                 function addThemeClass() {
                     const sections = __WEBPACK_IMPORTED_MODULE_0_jquery__('.slides section[data-state]');
 
@@ -16349,6 +16350,7 @@
                     });
                 }
 
+                // noinspection JSAnnotator
                 function listenBodyChange() {
                     if (__WEBPACK_IMPORTED_MODULE_0_jquery__('body').hasClass('print-pdf')) {
                         return addThemeClass();

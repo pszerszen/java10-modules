@@ -1,6 +1,6 @@
-module com.osa.modules.devday {
+module devday {
 
-    requires com.osa.modules.service;
+    requires dev.service;
     requires java.logging;
 
     uses com.osa.modules.service.EventService;

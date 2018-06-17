@@ -1,3 +1,3 @@
-module com.osa.modules.service {
+module dev.service {
     exports com.osa.modules.service;
 }

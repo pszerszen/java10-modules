@@ -1,8 +1,8 @@
 import com.osa.modules.lt.service.LightningTalkService;
 
-module com.osa.module.lt.service {
+module dev.lt.service {
 
-    requires com.osa.modules.service;
+    requires dev.service;
 
     exports com.osa.modules.lt.service;
 
