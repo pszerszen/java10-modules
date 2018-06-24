@@ -53,29 +53,29 @@
         <section data-state="theme dark">
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>module</h4>
+                <h3>module</h3>
                 <p>Definicja modułu rozpoczyna się od słowa module i nazwy modułu</p>
             </section>
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>requires</h4>
+                <h3>requires</h3>
                 <p>Służy do wskazania modułów, od których zależy; nazwa modułu musi być określona po tym słowie kluczowym</p>
             </section>
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>transitive</h4>
+                <h3>transitive</h3>
                 <p>Jest określony po słowie kluczowym require; oznacza to, że każdy moduł, który zależy od definiowanego modułu, wymaga przechodniego
                     <em><b>nazwa_modułu</b></em> uzyskuje ukrytą zależność od <em><b>nazwa_modułu</b></em></p>
                 <p><img style="width: 100%" src="./images/transitive.png"></p>
             </section>
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>exports</h4>
+                <h3>exports</h3>
                 <p>Służy do wskazania pakietów w module dostępnych publicznie; nazwa pakietu musi być określona po tym słowie kluczowym.</p>
             </section>
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>opens</h4>
+                <h3>opens</h3>
                 <p>Służy do wskazywania pakietów, które są dostępne tylko w środowisku wykonawczym, a także są dostępne do introspekcji za pośrednictwem
                     interfejsów API Reflection; jest to dość znaczące dla bibliotek takich jak Spring i Hibernate, w dużym stopniu polegających na interfejsach
                     API Reflection; <em><b>opens</b></em> może być również użyty na poziomie modułu, w którym to przypadku cały moduł jest dostępny w czasie
@@ -83,13 +83,13 @@
             </section>
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>uses</h4>
+                <h3>uses</h3>
                 <p>Służy do wskazania interfejsu usługi, którego używa ten moduł; nazwa typu, tj. pełna nazwa klasy / interfejsu, musi być określona po tym
                     słowie kluczowym.</p>
             </section>
             <section>
                 <h2>Słowa kluczowe</h2>
-                <h4>provides … with ...</h4>
+                <h3>provides … with ...</h3>
                 <p>Służą one do wskazania, że moduł zapewnia implementacje określone po słowie kluczowym <em><b>with</b></em> dla interfejsu usługi określonego
                     po słowie kluczowym <em><b>provides</b></em>.</p>
             </section>
